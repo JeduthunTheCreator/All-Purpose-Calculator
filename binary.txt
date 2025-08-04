@@ -1,5 +1,0 @@
-					Welcome to the Binary Calculator!
-----------------------------------------------------------------------------------------------------------------
-This Calculator is currently set to 64 bits.
-The Maximum Bound of the calculator is 9223372036854775807
-The Minimum Bound of the calculator is -9223372036854775807
