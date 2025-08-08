@@ -1,0 +1,2 @@
+C:\Users\idemu\OneDrive\Desktop\All-Purpose-Calculator\obj\Debug\all-purpose-calculator.esproj.CoreCompileInputs.cache
+C:\Users\idemu\OneDrive\Desktop\All-purpose Calculator\frontend\obj\Debug\all-purpose-calculator.esproj.CoreCompileInputs.cache
