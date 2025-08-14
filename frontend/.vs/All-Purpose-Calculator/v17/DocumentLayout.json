@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +36,50 @@
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-08-08T11:56:26.422Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.css",
+              "RelativeDocumentMoniker": "src\\App.css",
+              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.css",
+              "RelativeToolTip": "src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-11T14:37:11.153Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "src\\pages\\Home.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-08-11T14:33:19.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-10T22:35:12.62Z",
               "EditorCaption": ""
             }
           ]
