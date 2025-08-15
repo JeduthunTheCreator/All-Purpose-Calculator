@@ -1,16 +1,38 @@
 ﻿import React from 'react';
 import { Link } from 'react-router-dom';
+import Squares from '../components/Squares';
+import "../styles/Home.css";
 
 const Home = () => {
     return (
-        <div className="home-page">
-            <h1>All-Purpose Calculator</h1>
-            <p>Welcome to the All-Purpose Calculator! Select a calculation type from the menu to get started.</p>
-            <div>
-                <ul>
-                  <li><Link to="/scientific">Scientific Calculator</Link></li>
-                  <li><Link to="/binary">Binary Calculator</Link></li>
-                </ul>
+        <div className="h-screen w-screen overflow-hidden home-page">
+            {/* Background animation*/}
+            <div className="background">
+                <Squares
+                    speed={0.5}
+                    squareSize={50}
+                    direction="diagonal"
+                    borderColor="#000080"
+                    hoverFillColor="#36454F"
+                />
+            </div>
+
+            {/* Page Content*/}
+            <div className="page-content ">
+                <div className="welcome-text">
+                    <h1>All-Purpose Calculator</h1>
+                    <p>Welcome to the All-Purpose Calculator! Select a calculation type from the menu to get started.</p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 navbar">
+                    <Link to="/scientific">
+                        Scientific Calculator
+                    </Link>
+
+                    <Link to="/binary">
+                        Binary Calculator
+                    </Link>
+                </div>
             </div>
         </div>
     );
