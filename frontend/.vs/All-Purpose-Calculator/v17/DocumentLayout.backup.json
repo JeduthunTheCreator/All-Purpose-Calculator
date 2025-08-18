@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\styles\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\styles\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-08-08T11:56:26.422Z",
               "IsPinned": true,
@@ -40,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.css",
               "RelativeDocumentMoniker": "src\\App.css",
@@ -53,16 +57,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\Home.css",
+              "RelativeDocumentMoniker": "src\\styles\\Home.css",
+              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\Home.css",
+              "RelativeToolTip": "src\\styles\\Home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-15T14:06:27.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Home.jsx",
               "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\Home.jsx",
               "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
               "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\Home.jsx",
               "RelativeToolTip": "src\\pages\\Home.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-08-11T14:33:19.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T14:33:19.352Z"
             }
           ]
         }

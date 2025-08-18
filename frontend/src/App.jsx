@@ -9,13 +9,15 @@ import ScientificCalculator from './pages/ScientificCalculator';
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/scientific" element={<ScientificCalculator />} />
-                <Route path="/binary" element={<BinaryCalculator />} />
-            </Routes>
-        </Router>
+        <div className="app-container">
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/scientific" element={<ScientificCalculator />} />
+                    <Route path="/binary" element={<BinaryCalculator />} />
+                </Routes>
+            </Router>
+        </div>
     )
 }
 

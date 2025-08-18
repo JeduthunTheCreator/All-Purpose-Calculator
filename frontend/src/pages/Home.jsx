@@ -5,9 +5,9 @@ import "../styles/Home.css";
 
 const Home = () => {
     return (
-        <div className="h-screen w-screen overflow-hidden home-page">
+        <div className="relative min-h-[100dvh] w-full overflow-hidden home-page">
             {/* Background animation*/}
-            <div className="background">
+            <div className="absolute inset-0 w-full h-full background">
                 <Squares
                     speed={0.5}
                     squareSize={50}
@@ -18,8 +18,8 @@ const Home = () => {
             </div>
 
             {/* Page Content*/}
-            <div className="page-content ">
-                <div className="welcome-text">
+            <div className="relative flex flex-col items-center justify-center page-content">
+                <div className="welcome-text text-center">
                     <h1>All-Purpose Calculator</h1>
                     <p>Welcome to the All-Purpose Calculator! Select a calculation type from the menu to get started.</p>
                 </div>
