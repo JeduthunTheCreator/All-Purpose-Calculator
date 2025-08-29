@@ -1,0 +1,25 @@
+﻿.root-expression {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.root-index {
+    position: absolute;
+    font-size: 0.7em;
+    top: 3px;
+    left: -4px;
+    line-height: 1;
+}
+
+.radical {
+    font-size: 1.4em;
+    margin-right: 1px;
+}
+
+.radicand {
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    font-size: 1em;
+}

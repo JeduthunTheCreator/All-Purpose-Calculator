@@ -1,97 +1,232 @@
 ﻿import React, { useState } from 'react';
+import { calculateScientific } from '../services/api';
+import '../styles/ScientificCalculator.css';
+import { LuPi } from 'react-icons/lu';
+import { FaArrowRightArrowLeft, FaSquareRootVariable } from 'react-icons/fa6';
+import { IoArrowUndoSharp } from 'react-icons/io5';
+import { TbSquareRoot } from "react-icons/tb";
 
-const scientificFunctions = [
-  { label: 'sin', fn: Math.sin },
-  { label: 'cos', fn: Math.cos },
-  { label: 'tan', fn: Math.tan },
-  { label: 'log', fn: Math.log10 },
-  { label: 'ln', fn: Math.log },
-  { label: '√', fn: Math.sqrt },
-  { label: 'x²', fn: (x) => x * x },
-  { label: 'x³', fn: (x) => x * x * x },
-  { label: 'exp', fn: Math.exp },
-  { label: 'π', fn: () => Math.PI },
-  { label: 'e', fn: () => Math.E }
-];
 
-function ScientificCalc() {
-  const [input, setInput] = useState('');
-  const [result, setResult] = useState('');
+const ScientificCalculator = () => {
+    const [display, setDisplay] = useState('0');
+    const [previousValue, setPreviousValue] = useState(null);
+    const [operation, setOperation] = useState(null);
+    const [waitingForNewValue, setWaitingForNewValue] = useState(false);
 
-  const handleButtonClick = (value) => {
-    setInput((prev) => prev + value);
-  };
 
-  const handleFunctionClick = (fn, label) => {
-    try {
-      let val = input === '' ? 0 : parseFloat(input);
-      let res = fn(val);
-      setResult(res);
-    } catch {
-      setResult('Error');
-    }
-  };
+    const performOperation = async (nextOperation) => {
+        const inputValue = parseFloat(display);
 
-  const handleClear = () => {
-    setInput('');
-    setResult('');
-  };
+        if (previousValue === null) {
+            setPreviousValue(inputValue);
+        } else if (operation) {
+            const currentValue = previousValue || 0;
+            try {
+                const result = await calculateScientific(operation, currentValue, inputValue);
+                setDisplay(String(result));
+                setPreviousValue(result);
+            } catch (error) {
+                setDisplay('Error');
+                setPreviousValue(null);
+                console.error('Calculation error:', error);
+            }
+        }
 
-  const handleEquals = () => {
-    try {
-      // eslint-disable-next-line no-eval
-      const evalResult = eval(input);
-      setResult(evalResult);
-    } catch {
-      setResult('Error');
-    }
-  };
+        setWaitingForNewValue(true);
+        setOperation(nextOperation);
+    };
 
-  return (
-    <div className="scientific-calc">
-      <h2>Scientific Calculator</h2>
-      <div className="display">
-        <input
-          type="text"
-          value={input}
-          readOnly
-          placeholder="0"
-        />
-        <div className="result">{result !== '' ? `= ${result}` : ''}</div>
-      </div>
-      <div className="buttons">
-        <div className="row">
-          {[7, 8, 9, '/'].map((v) => (
-            <button key={v} onClick={() => handleButtonClick(v.toString())}>{v}</button>
-          ))}
+    const performUnaryOperation = async (op) => {
+        const inputValue = parseFloat(display);
+        try {
+            const result = await calculateScientific(op, inputValue);
+            setDisplay(String(result));
+            setWaitingForNewValue(true);
+        } catch (error) {
+            setDisplay('Error');
+            console.error('Calculation error:', error);
+        }
+    };
+
+    return (
+        <div className="wrapper">
+            <section className="screen">
+                0
+            </section>
+
+            <section className="calc-buttons">
+                <div classname="calc-button-row">
+                    <button className="calc-button double">
+                        2nd
+                    </button>
+                    <button className="calc-button">
+                        π
+                    </button>
+                    <button className="calc-button">
+                        e
+                    </button>
+                    <button className="calc-button">
+                        [::]
+                    </button>
+                    <button className="calc-button">
+                        x
+                    </button>
+                    <button className="calc-button">
+                        (
+                    </button>
+                    <button className="calc-button">
+                        ,
+                    </button>
+                    <button className="calc-button">
+                        )
+                    </button>
+                    <button className="calc-button">
+                        <FaArrowRightArrowLeft/>
+                    </button>
+                    <button className="calc-button">
+                        <IoArrowUndoSharp/>
+                    </button>
+                </div>
+
+                <div className="calc-button-row">
+                    <button className="calc-button">
+                        sin
+                    </button>
+                    <button className="calc-button">
+                        sinh
+                    </button>
+                    <button className="calc-button">
+                        cot
+                    </button>
+                    <button className="calc-button">
+                        <span className="root-expression">
+                            <span className="root-index">y</span>
+                            <span className="radical">√</span>
+                            <span className="radicand">x</span>
+                        </span>
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                </div>
+
+                <div className="calc-button-row">
+                    <button className="calc-button">
+                        4
+                    </button>
+                    <button className="calc-button">
+                        5
+                    </button>
+                    <button className="calc-button">
+                        6
+                    </button>
+                    <button className="calc-button">
+                        &minus;
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                    <button className="calc-button double">
+                        C
+                    </button>
+                </div>
+
+                <div classname="calc-button-row">
+                    <button className="calc-button">
+                        1
+                    </button>
+                    <button className="calc-button">
+                        2
+                    </button>
+                    <button className="calc-button">
+                        3
+                    </button>
+                    <button className="calc-button">
+                        0
+                    </button>
+                    <button className="calc-button">
+                        C
+                    </button>
+                    <button className="calc-button">
+                        C
+                    </button>
+                    <button className="calc-button">
+                        0
+                    </button>
+                    <button className="calc-button">
+                        0
+                    </button>
+                    <button className="calc-button">
+                        0
+                    </button>
+                    <button className="calc-button">
+                        0
+                    </button>
+                </div>
+
+                <div className="calc-button-row">
+                    <button className="calc-button triple">
+                        0
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                    <button className="calc-button">
+                        0
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                    <button className="calc-button">
+                        &
+                    </button>
+                </div>
+
+            </section>
         </div>
-        <div className="row">
-          {[4, 5, 6, '*'].map((v) => (
-            <button key={v} onClick={() => handleButtonClick(v.toString())}>{v}</button>
-          ))}
-        </div>
-        <div className="row">
-          {[1, 2, 3, '-'].map((v) => (
-            <button key={v} onClick={() => handleButtonClick(v.toString())}>{v}</button>
-          ))}
-        </div>
-        <div className="row">
-          {[0, '.', '+'].map((v) => (
-            <button key={v} onClick={() => handleButtonClick(v.toString())}>{v}</button>
-          ))}
-          <button onClick={handleEquals}>=</button>
-        </div>
-        <div className="row">
-          <button onClick={handleClear}>C</button>
-        </div>
-        <div className="row scientific">
-          {scientificFunctions.map(({ label, fn }) => (
-            <button key={label} onClick={() => handleFunctionClick(fn, label)}>{label}</button>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
+    )
+};
 
-export default ScientificCalc;
+export default ScientificCalculator;
