@@ -23,3 +23,88 @@
     left: 12px;
     font-size: 1em;
 }
+
+.square-expression {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.exponent {
+    position: absolute;
+    font-size: 0.7em;
+    top: -18px;
+    left: 5px;
+    line-height: 1;
+}
+
+.base {
+    position: absolute;
+    top: -18px;
+    left: -5px;
+    font-size: 1em;
+}
+
+.base-10 {
+    position: absolute;
+    top: -18px;
+    left: -10px;
+    font-size: 1em;
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px );
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.80);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    flex-basis: 350px;
+    width: 720px;
+    padding: 20px 35px; 
+}
+
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    padding: 10px;
+    text-align: right;
+    width: 700px;
+}
+
+.calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 6px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+.calc-button-row {
+    display: contents;
+}
+
+
+.calc-button-triple {
+    grid-column: 10;
+    grid-row: 3 / 6; /* Spans from row 3 to row 6 */
+}
+
+.gap-right {
+    margin-right: 5px;
+}
+
+
+
+

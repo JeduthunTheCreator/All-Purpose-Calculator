@@ -17,6 +17,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+/*
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}*/
+
+
+
 html, body, #root {
     height: 100%;
     width: 100%;
@@ -35,13 +50,8 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  place-items: center;
-  width: 100%;
-  min-width: 100vw;
-  min-height: 100vh;
+
+    display: flex;
 }
 
 h1 {
