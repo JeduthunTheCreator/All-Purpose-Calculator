@@ -87,14 +87,49 @@
     grid-template-rows: repeat(5, 1fr);
     gap: 6px;
     padding: 16px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+}
+
+.calc-button {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-family: inherit;
+}
+
+.calc-button:last-child {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: white;
+    background: #3a4a5c;
+}
+
+/* Note last child style is only applicable to FaTimes, IoArrowUndoSharp, C and FaMinus */
+.calc-button:last-child:hover {
+    background-color: #999999;
+    color: inherit;
+}
+
+.calc-button:last-child:active {
+    background-color: #404040;
+}
+     
+.calc-button:hover {
+    background-color: #999999;
+}
+
+.calc-button:active {
+    background-color: #404040;
 }
 
 .calc-button-row {
     display: contents;
 }
-
 
 .calc-button-triple {
     grid-column: 10;
@@ -102,8 +137,25 @@
 }
 
 .gap-right {
-    margin-right: 5px;
+    margin-right: 3px;
 }
+
+
+/* Note icon style is only applicable to FaArrowRightArrowLeft, FaDivide, FaPlus and FaEquals */
+.icon-style {
+    color: white;
+}
+
+.icon-style:hover {
+    background-color: #999999;
+    color: #232323;
+}
+
+.icon-style:active {
+    background-color: #404040;
+}
+    
+
 
 
 
