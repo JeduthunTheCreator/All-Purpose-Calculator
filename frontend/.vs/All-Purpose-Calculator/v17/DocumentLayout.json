@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\pages\\binarycalculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\pages\\binarycalculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\pages\\scientificcalculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\pages\\scientificcalculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\styles\\scientificcalculator.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\styles\\scientificcalculator.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\pages\\binarycalculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\pages\\binarycalculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\styles\\binarycalculator.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\styles\\binarycalculator.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|solutionrelative:src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B914501A-7672-9849-2BC5-B91AAB285D44}|all-purpose-calculator.esproj|c:\\users\\idemu\\onedrive\\desktop\\all-purpose calculator\\frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -42,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-08-08T11:56:26.422Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\App.css",
               "RelativeDocumentMoniker": "src\\App.css",
@@ -72,16 +68,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\index.css",
               "RelativeDocumentMoniker": "src\\index.css",
               "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\index.css",
               "RelativeToolTip": "src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-04T15:43:23.565Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScientificCalculator.css",
+              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\ScientificCalculator.css",
+              "RelativeDocumentMoniker": "src\\styles\\ScientificCalculator.css",
+              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\ScientificCalculator.css",
+              "RelativeToolTip": "src\\styles\\ScientificCalculator.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-12T16:02:40.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -91,59 +100,35 @@
               "RelativeDocumentMoniker": "src\\pages\\ScientificCalculator.jsx",
               "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\ScientificCalculator.jsx",
               "RelativeToolTip": "src\\pages\\ScientificCalculator.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-08-28T13:49:22.509Z",
+              "WhenOpened": "2025-09-12T15:43:04.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Navbar.jsx",
-              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\components\\Navbar.jsx",
-              "RelativeDocumentMoniker": "src\\components\\Navbar.jsx",
-              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\components\\Navbar.jsx",
-              "RelativeToolTip": "src\\components\\Navbar.jsx",
-              "ViewState": "AgIAAEYBAAAAAAAAAAAYwFABAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-09-04T15:43:36.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScientificCalculator.css",
-              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\ScientificCalculator.css",
-              "RelativeDocumentMoniker": "src\\styles\\ScientificCalculator.css",
-              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\ScientificCalculator.css",
-              "RelativeToolTip": "src\\styles\\ScientificCalculator.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-04T16:03:11.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "BinaryCalculator.jsx",
               "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\BinaryCalculator.jsx",
               "RelativeDocumentMoniker": "src\\pages\\BinaryCalculator.jsx",
               "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\BinaryCalculator.jsx",
               "RelativeToolTip": "src\\pages\\BinaryCalculator.jsx",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAE8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-09-04T15:55:22.985Z"
+              "WhenOpened": "2025-09-12T15:41:32.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Home.jsx",
-              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\Home.jsx",
-              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
-              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\pages\\Home.jsx",
-              "RelativeToolTip": "src\\pages\\Home.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-09-04T15:42:28.429Z"
+              "DocumentIndex": 4,
+              "Title": "BinaryCalculator.css",
+              "DocumentMoniker": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\BinaryCalculator.css",
+              "RelativeDocumentMoniker": "src\\styles\\BinaryCalculator.css",
+              "ToolTip": "C:\\Users\\idemu\\OneDrive\\Desktop\\All-purpose Calculator\\frontend\\src\\styles\\BinaryCalculator.css",
+              "RelativeToolTip": "src\\styles\\BinaryCalculator.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-12T15:41:35.279Z"
             }
           ]
         }

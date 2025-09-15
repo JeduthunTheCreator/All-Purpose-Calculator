@@ -228,7 +228,7 @@ const PillNav = ({
                 {isRouterLink(items?.[0]?.href) ? (
                     <Link
                         className="pill-logo"
-                        to={items[0].href}
+                        to="/"
                         aria-label="Home"
                         onMouseEnter={handleLogoEnter}
                         role="menuitem"

@@ -1,4 +1,13 @@
-﻿.root-expression {
+﻿.page-title {
+    margin-right: 250px;
+    font-size: 40px;
+}
+
+.scientific-navbar {
+    margin-left: -200px;
+}
+
+.root-expression {
     position: relative;
     display: inline-block;
     font-size: 14px;
@@ -60,11 +69,11 @@
     color: #232323;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    background: rgba(255, 255, 255, 0.80);
+    background: rgba(255, 255, 255, 0.75);
     border: 1px solid rgba(255, 255, 255, 0.85);
     flex-basis: 350px;
     width: 720px;
-    padding: 20px 35px; 
+    padding: 20px 35px;
 }
 
 .screen {
@@ -109,7 +118,7 @@
     background: #3a4a5c;
 }
 
-/* Note last child style is only applicable to FaTimes, IoArrowUndoSharp, C and FaMinus */
+/* Note: last child style is only applicable to FaTimes, IoArrowUndoSharp, C and FaMinus */
 .calc-button:last-child:hover {
     background-color: #999999;
     color: inherit;
@@ -141,7 +150,7 @@
 }
 
 
-/* Note icon style is only applicable to FaArrowRightArrowLeft, FaDivide, FaPlus and FaEquals */
+/* Note: icon style is only applicable to FaArrowRightArrowLeft, FaDivide, FaPlus and FaEquals */
 .icon-style {
     color: white;
 }
